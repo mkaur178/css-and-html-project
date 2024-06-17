@@ -1,0 +1,467 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Flex', sans-serif;
+}
+.main2{
+    min-height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(banner.png);
+    background-position: center;
+    background-size: cover;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+}
+.main ul li {
+    display: inline;
+    padding: 20px;
+}
+.main ul li :hover{
+    color: red;
+}
+.main img{
+    padding-right: 500px;
+}
+.main ul li a{
+    text-decoration: none;
+    color: white;
+}
+.h1 i{
+    position: relative;
+    top: 15px;
+    font-size:30px;
+
+}
+.h2 i{
+    position: relative;
+    top: 15px;
+    font-size: 30px;
+}
+.h3 i{
+    position: relative;
+    top: 15px;
+    font-size: 30px;
+
+
+}
+
+.op1 h1{
+    font-size: 65px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.op1 p{
+    font-size: 14px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.op1 button{
+    padding: 15px;
+    margin-left: 580px;
+    margin-top: 50px;
+    cursor: pointer;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+}
+.op1 button:hover{
+
+    background-color: brown;
+    border: none;
+}
+.main3{
+    position: relative;
+    top: 100px;
+}
+.main3 h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.main3 p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+}
+.box{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 200px;
+
+}
+.h1{
+    width: 350px;
+    background-color: rgb(252, 228, 228);
+    border-radius: 12px;
+    text-align: center;
+    padding: 20px;
+    
+
+}
+.h1:hover{
+    box-shadow: 3px 4px 8px 9px rgb(226, 216, 216) ;
+}
+.h1 p{
+    color: rgb(92, 88, 88);
+}
+.h2{
+    width: 350px;
+    background-color:  rgb(252, 228, 228);
+    border-radius: 12px;
+    text-align: center;
+    padding: 20px;
+
+}
+.h2:hover{
+    box-shadow: 3px 4px 8px 9px rgb(226, 216, 216) ;
+}
+.h2 p{
+    color: rgb(92, 88, 88) ;
+}
+.h3{
+    width: 350px;
+    background-color:  rgb(252, 228, 228);
+    border-radius: 12px;
+    text-align: center;
+    padding: 20px;
+
+}
+.h3:hover{
+    box-shadow: 3px 4px 8px 9px rgb(226, 216, 216) ;
+}
+.h3 p{
+    color:  rgb(92, 88, 88);
+
+}
+.h1 h3{
+    margin-top: 50px;
+}
+.h2 h3{
+    margin-top: 50px;
+}
+
+.h3 h3{
+    margin-top: 50px;
+}
+.main4 h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.main4 p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:  rgb(92, 88, 88);
+}
+.main4{
+    margin-top: 130px;
+}
+.place{
+    margin-top: 170px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    position: relative;
+    width: 100%;
+
+}
+
+.place .img1 h3{
+    margin-top: -50px;
+}
+
+.place .img2 h3{
+    margin-top: -50px;
+}
+
+.place .img3 h3{
+    margin-top: -50px;
+}
+
+
+.place .img1:hover{
+    box-shadow: 2px 3px 4px 5px rgb(204, 195, 195);
+    transition: 1s ease-in-out;
+}
+.place .img2:hover{
+    box-shadow: 2px 3px 4px 5px rgb(204, 195, 195);
+    transition: 1s ease-in-out;
+}
+.place .img3:hover{
+    box-shadow: 2px 3px 4px 5px rgb(204, 195, 195);
+    transition: 1s ease-in-out;
+}
+.img1{
+    background-image: url(london1.png);
+    height: 530px;
+    width: 380px;
+    border-radius: 15px;
+   
+}
+.img1 h3{
+    margin-left: 150px;
+    margin-top: 512px;
+}
+
+.img2{
+    background-image: url(washington2.png);
+    height:530px ;
+    width: 380px;
+    border-radius: 15px;
+}
+.img2 h3{
+    margin-left: 150px;
+    margin-top:512px ;
+}
+.img3{
+    background-image: url(n1.png);
+    height: 530px;
+    width: 380px;
+    border-radius: 15px;
+}
+.img3 h3{
+    margin-left: 130px;
+    margin-top: 512px;
+
+}
+.img1 h3:hover{
+    scale: 1.0;
+    color: red;
+}
+
+.img2 h3:hover{
+    scale: 1.0;
+    color: red;
+}
+
+.img3 h3:hover{
+    scale: 1.0;
+    color: red;
+}
+
+
+.a1 h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.a1 p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:  rgb(92, 88, 88);
+    
+}
+.a1{
+    margin-top: 100px;
+    line-height: 50px;
+}
+.place1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+    
+}
+
+.p1 img{
+    border-radius: 10px;
+    height: 300px;
+    width: 350px;
+    overflow: hidden;
+    transition: 0.5s all ease-in-out;
+   
+}
+.p1 img:hover{
+    transform: scale(1.1);
+}
+
+.p1 h3{
+    margin-top: 25px;
+}
+.p1 p{
+    margin-top: 15px;
+    color: rgb(92, 88, 88);
+    opacity: .8;
+
+}
+.b1 h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.b1 p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:  rgb(92, 88, 88);
+}
+.b1{
+    margin-top: 150px;
+    line-height: 50px;
+}
+.fac{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.c1{
+    background-color:  rgb(252, 228, 228);
+    height: 180px;
+    width: 500px;
+    border-radius: 10px;
+}
+.c1 img{
+    border-radius: 50%;
+    height: 50px;
+    position: relative;
+    top: 60px;
+    left: 20px;
+}
+.c1 p{
+    margin-left: 100px;
+}
+.c1 h2{
+    margin-left: 100px;
+    
+}
+.m1{
+    margin: 100px auto;
+    width: 80%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(banner2.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+
+}
+.m1 h2{
+    color: white;
+}
+.m1 button{
+    background: transparent;
+    color: white;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.m1 button:hover{
+    background-color: red;
+    transition: 0.4s;
+}
+
+.l1{
+    margin-top: 150px;
+}
+.l1 h3{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.l1 p{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    color:  rgb(92, 88, 88);
+}
+.l1 h1{
+    display: flex;
+    justify-content: center;
+}
+.nav1{
+    display: flex;
+    justify-content: space-around;
+    background-color:gray;
+    padding: 15px;
+
+}
+.nav1 img{
+    margin-right: 450px;
+}
+.nav1 ul{
+    margin-top: 15px;
+}
+.nav1 ul li{
+    display: inline;
+    
+}
+.nav1 ul li a{
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+}
+.nav1 ul li a:hover{
+    color: red;
+}
+.main label{
+    display: none;
+
+}
+#box{
+ display: none;
+}
+#box:checked~.main2 .main ul{
+    display: block;
+}
+
+@media screen and (max-width:700px) {
+    .main label{
+        display: block;
+        position: fixed;
+        right: 50px;
+    }
+    .main ul li a{
+        display: block;
+    }
+    .main ul{
+        position: relative;
+        top: 100px;
+        right: 50px;
+        display: none;
+    }
+    .main{
+        height: 80px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
